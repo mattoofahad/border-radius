@@ -28,9 +28,10 @@ class App extends Component {
       <div className="main">
         <div className="selectArea">
           <label>
-            <strong>Select how many toggles</strong>
+            <strong>Select how many toggles do you want to display</strong>
           </label>
-          <br></br>
+          <br />
+          <br />
           <select
             /*  ref={this.selectBox} */
             className="main"
