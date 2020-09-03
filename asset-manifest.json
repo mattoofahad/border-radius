@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/border-radius/static/css/main.debf7fb8.chunk.css",
-    "main.js": "/border-radius/static/js/main.c23dfdf5.chunk.js",
-    "main.js.map": "/border-radius/static/js/main.c23dfdf5.chunk.js.map",
+    "main.css": "/border-radius/static/css/main.cdf4bbe3.chunk.css",
+    "main.js": "/border-radius/static/js/main.816c6a87.chunk.js",
+    "main.js.map": "/border-radius/static/js/main.816c6a87.chunk.js.map",
     "runtime-main.js": "/border-radius/static/js/runtime-main.5e6094ac.js",
     "runtime-main.js.map": "/border-radius/static/js/runtime-main.5e6094ac.js.map",
     "static/js/2.0da0f3e7.chunk.js": "/border-radius/static/js/2.0da0f3e7.chunk.js",
     "static/js/2.0da0f3e7.chunk.js.map": "/border-radius/static/js/2.0da0f3e7.chunk.js.map",
     "index.html": "/border-radius/index.html",
-    "precache-manifest.df0f441f630a7564a6e1d73af35982e0.js": "/border-radius/precache-manifest.df0f441f630a7564a6e1d73af35982e0.js",
+    "precache-manifest.3f4add4905f7b7b94302a4660c37f328.js": "/border-radius/precache-manifest.3f4add4905f7b7b94302a4660c37f328.js",
     "service-worker.js": "/border-radius/service-worker.js",
-    "static/css/main.debf7fb8.chunk.css.map": "/border-radius/static/css/main.debf7fb8.chunk.css.map",
+    "static/css/main.cdf4bbe3.chunk.css.map": "/border-radius/static/css/main.cdf4bbe3.chunk.css.map",
     "static/js/2.0da0f3e7.chunk.js.LICENSE.txt": "/border-radius/static/js/2.0da0f3e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e6094ac.js",
     "static/js/2.0da0f3e7.chunk.js",
-    "static/css/main.debf7fb8.chunk.css",
-    "static/js/main.c23dfdf5.chunk.js"
+    "static/css/main.cdf4bbe3.chunk.css",
+    "static/js/main.816c6a87.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Border radius",
+  "name": "CSS border radius calculator",
   "icons": [
     {
       "src": "favicon.ico",
