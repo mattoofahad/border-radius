@@ -6,7 +6,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      style: "0%",
+      style: "50% 50% 50% 50% / 50% 50% 50% 50%",
     };
 
     this.rightRight = React.createRef();
@@ -20,38 +20,23 @@ class App extends Component {
     this.changeVal = this.changeVal.bind(this);
   }
   val() {
-    if (
-      this.topLeft.current &&
-      this.topRight.current &&
-      this.bottomLeft.current &&
-      this.bottomRight.current &&
-      this.rightLeft.current &&
-      this.rightRight.current &&
-      this.leftLeft.current &&
-      this.leftRight.current
-    ) {
-      let raggiox00 = this.topLeft.current.valueAsNumber;
-      let raggioy00 = this.leftLeft.current.valueAsNumber;
-      let raggiox01 = this.topRight.current.valueAsNumber;
-      let raggioy01 = this.rightLeft.current.valueAsNumber;
-      let raggiox10 = this.bottomLeft.current.valueAsNumber;
-      let raggioy10 = this.leftRight.current.valueAsNumber;
-      let raggiox11 = this.bottomRight.current.valueAsNumber;
-      let raggioy11 = this.rightRight.current.valueAsNumber;
-      return `${raggiox00}% ${raggiox01}% ${raggiox11}% ${raggiox10}% / 
+    let raggiox00 = this.topLeft.current.valueAsNumber;
+    let raggioy00 = this.leftLeft.current.valueAsNumber;
+    let raggiox01 = this.topRight.current.valueAsNumber;
+    let raggioy01 = this.rightLeft.current.valueAsNumber;
+    let raggiox11 = this.bottomRight.current.valueAsNumber;
+    let raggioy11 = this.rightRight.current.valueAsNumber;
+    let raggiox10 = this.bottomLeft.current.valueAsNumber;
+    let raggioy10 = this.leftRight.current.valueAsNumber;
+
+    return `${raggiox00}% ${raggiox01}% ${raggiox11}% ${raggiox10}% / 
         ${raggioy00}% ${raggioy01}% ${raggioy11}% ${raggioy10}%`;
-    } else {
-      return "50%";
-    }
   }
+
   changeVal() {
     this.setState({
       style: this.val(),
     });
-  }
-
-  componentDidMount() {
-    this.setState({ style: this.val() });
   }
 
   render() {
