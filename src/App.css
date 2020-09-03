@@ -13,11 +13,28 @@
   }
 }
 
-h1 {
+h1,
+h2 {
   font-size: 20px;
   color: #3023ae;
   text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
 }
+
+.selectArea {
+  text-align: center;
+  padding: 20px 5px;
+}
+
+.selectArea select {
+  background-color: #fff;
+  border: 1px solid #f09;
+  height: 34px;
+  padding: 0 15px;
+}
+
 .App .border {
   position: absolute;
   top: 0;
@@ -110,6 +127,51 @@ h1 {
   height: 22px;
   transform: rotate(270deg);
 }
+
+/* BEGIN Four Values */
+
+.App .top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -11px;
+  z-index: 10;
+  width: 100%;
+}
+
+.App .bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  z-index: 10;
+  width: 100%;
+}
+
+.App .left {
+  position: absolute;
+  left: calc(-50% - 2px);
+  top: calc(50% - 11px);
+  /*bottom:calc(50% - 11px);*/
+  bottom: auto;
+  z-index: 10;
+  width: 100%;
+  height: 22px;
+  transform: rotate(90deg);
+}
+
+.App .right {
+  position: absolute;
+  right: calc(-50% - 2px);
+  top: calc(50% - 11px);
+  bottom: auto;
+  z-index: 10;
+  width: 100%;
+  height: 22px;
+  transform: rotate(270deg);
+}
+
+/* END Four Values */
 
 input[type="range"] {
   background: transparent;
