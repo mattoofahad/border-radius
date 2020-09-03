@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/border-radius/static/css/main.210c7c87.chunk.css",
-    "main.js": "/border-radius/static/js/main.eef7ad02.chunk.js",
-    "main.js.map": "/border-radius/static/js/main.eef7ad02.chunk.js.map",
+    "main.js": "/border-radius/static/js/main.13d27e92.chunk.js",
+    "main.js.map": "/border-radius/static/js/main.13d27e92.chunk.js.map",
     "runtime-main.js": "/border-radius/static/js/runtime-main.5e6094ac.js",
     "runtime-main.js.map": "/border-radius/static/js/runtime-main.5e6094ac.js.map",
     "static/js/2.ce49d928.chunk.js": "/border-radius/static/js/2.ce49d928.chunk.js",
     "static/js/2.ce49d928.chunk.js.map": "/border-radius/static/js/2.ce49d928.chunk.js.map",
     "index.html": "/border-radius/index.html",
-    "precache-manifest.ea42f8c60c055a093e9220f8c1ada408.js": "/border-radius/precache-manifest.ea42f8c60c055a093e9220f8c1ada408.js",
+    "precache-manifest.af83a54672c1298fcf0cd5d3c89636ff.js": "/border-radius/precache-manifest.af83a54672c1298fcf0cd5d3c89636ff.js",
     "service-worker.js": "/border-radius/service-worker.js",
     "static/css/main.210c7c87.chunk.css.map": "/border-radius/static/css/main.210c7c87.chunk.css.map",
     "static/js/2.ce49d928.chunk.js.LICENSE.txt": "/border-radius/static/js/2.ce49d928.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5e6094ac.js",
     "static/js/2.ce49d928.chunk.js",
     "static/css/main.210c7c87.chunk.css",
-    "static/js/main.eef7ad02.chunk.js"
+    "static/js/main.13d27e92.chunk.js"
   ]
 }
