@@ -48,7 +48,7 @@ h2 {
   -moz-appearance: none;
   border: 0 none;
   height: 34px;
-  padding: 0 15px;
+  padding: 0 25px 0 15px;
 }
 
 .selectArea select option,
