@@ -1,3 +1,10 @@
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .App {
   width: 400px;
   height: 400px;
@@ -27,12 +34,65 @@ h2 {
   text-align: center;
   padding: 20px 5px;
 }
-
+.selectArea label {
+  color: #3023ae;
+}
 .selectArea select {
-  background-color: #fff;
-  border: 1px solid #aaa;
+  background-color: #3023ae;
+  background-image: url("/assets/freccia.png");
+  background-repeat: no-repeat;
+  background-position: 97.5% 50%;
+  background-size: 5px;
+  color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0 none;
   height: 34px;
   padding: 0 15px;
+}
+
+.selectArea select option,
+.selectArea select option:hover {
+  background-color: #f09;
+  color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.resultBox {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.resultBox .row {
+  padding: 10px 0;
+}
+
+.resultBox input {
+  display: inline-block;
+  margin: 0 auto;
+  line-height: 35px;
+  border: 1px solid #aaa;
+  padding: 0;
+  width: 100%;
+  max-width: 380px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.resultBox button {
+  width: auto;
+  padding: 13px 12px;
+  background-color: #3023ae;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.resultBox button:hover,
+.resultBox button:focus {
+  background-color: #f09;
 }
 
 .App .border {
@@ -186,12 +246,14 @@ input[type="range"] {
 /*CODE TAKEN FROM https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/*/
 input[type="range"] {
   -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  -moz-appearance: none;
   width: 100%; /* Specific width is required for Firefox. */
   background: transparent; /* Otherwise white in Chrome */
 }
 
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 input[type="range"]:focus {

@@ -29,8 +29,7 @@ class EightValues extends Component {
     let raggiox10 = this.bottomLeft.current.valueAsNumber;
     let raggioy10 = this.leftRight.current.valueAsNumber;
 
-    return `${raggiox00}% ${raggiox01}% ${raggiox11}% ${raggiox10}% / 
-        ${raggioy00}% ${raggioy01}% ${raggioy11}% ${raggioy10}%`;
+    return `${raggiox00}% ${raggiox01}% ${raggiox11}% ${raggiox10}% / ${raggioy00}% ${raggioy01}% ${raggioy11}% ${raggioy10}%`;
   }
 
   changeVal() {

@@ -34,8 +34,7 @@ class FourValues extends Component {
     //leftRight
     let raggioy10 = 100 - this.left.current.valueAsNumber;
 
-    return `${raggiox00}% ${raggiox01}% ${raggiox11}% ${raggiox10}% / 
-        ${raggioy00}% ${raggioy01}% ${raggioy11}% ${raggioy10}%`;
+    return `${raggiox00}% ${raggiox01}% ${raggiox11}% ${raggiox10}% / ${raggioy00}% ${raggioy01}% ${raggioy11}% ${raggioy10}%`;
   }
 
   changeVal() {
