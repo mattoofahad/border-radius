@@ -49,6 +49,7 @@ h1 {
   top: -11px;
   z-index: 10;
   width: 50%;
+  transform: rotate(180deg);
 }
 
 .App .bottomLeft {
