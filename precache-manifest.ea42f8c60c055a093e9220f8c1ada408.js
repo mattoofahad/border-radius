@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6381bf92a4fdd7c00757b48643d0a42c",
+    "revision": "f49c88a7e00f6c8d99ee4db5a71572f3",
     "url": "/border-radius/index.html"
   },
   {
