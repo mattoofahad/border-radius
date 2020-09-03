@@ -57,7 +57,7 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-        <h1>CSS border radius calculator</h1>
+        <h1>CSS border radius visualizer and calculator</h1>
         <div class="cont-width">
           <div className="cont">
             <div className="App">
